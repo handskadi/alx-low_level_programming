@@ -1,17 +1,22 @@
 #include <stdio.h>
 
 /**
- * main - Will check the size of various types
- * Return: 0 if exited properly, non-zero otherwise
+ * main - Program prints the size of data type in C MkWeb
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
+{
+	int a;
+	long int b;
+	long long int c;
+	char d;
+	float f;
 
-	int i;
-	double d;
-	char c;
-
-	printf("The size of a int is :%lu \n",(unsigned long)sizeof(i));
-	printf("The size of a double is :%lu \n",(unsigned long)sizeof(d));
-	printf("The size of a float is :%lu \n",(unsigned long)sizeof(c));
+	printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(d));
+	printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(a));
+	printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(b));
+	printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(c));
+	printf("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(f));
 	return (0);
 }
