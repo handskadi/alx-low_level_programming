@@ -1,0 +1,20 @@
+#include <stdio.h>
+/**
+ * main - main block
+ * Description: Use `putchar` to print lowercase alphabet.
+ * Return: 0
+ */
+int main(void)
+{
+	int n = 0;
+
+	while ( n < 10 )
+	{
+		putchar(n);
+		n++;
+	}
+
+	putchar('\n');
+
+	return (0);
+}
