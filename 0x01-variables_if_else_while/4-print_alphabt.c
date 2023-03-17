@@ -13,15 +13,12 @@ int main(void)
 		if (c == 'q' || c == 'e')
 		{
 			c++;
-
 		} else 
 		{
 			putchar(c);
 			c++;
 		}
 	}
-
 	putchar('\n');
-
 	return (0);
 }
