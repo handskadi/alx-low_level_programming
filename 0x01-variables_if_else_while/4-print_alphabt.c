@@ -13,7 +13,7 @@ int main(void)
 		if (c == 'q' || c == 'e')
 		{
 			c++;
-		} else 
+		} else
 		{
 			putchar(c);
 			c++;
