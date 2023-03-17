@@ -14,7 +14,8 @@ int main(void)
 		{
 			c++;
 
-		} else {
+		} else 
+		{
 			putchar(c);
 			c++;
 		}
