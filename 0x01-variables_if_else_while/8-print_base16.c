@@ -6,15 +6,14 @@
  */
 int main(void)
 {
-        int long n = 0;
+	int long n = 0;
 	char c = 'a';
-
-        while (n < 10)
-        {
+	while (n < 10)
+	{
 		putchar(n + '0');
 		n++;
-        }
-	while(c <= 'g')
+	}
+	while(c <= 'f')
 	{
 		putchar(c);
 		c++;
