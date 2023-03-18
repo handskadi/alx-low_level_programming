@@ -4,12 +4,14 @@
  * main - main block
  * Description: Write a program that prints all possible
  * Numbers must be separated by ,, followed by a space
+ * Return: 0
  */
 int main(void)
 {
 	int c;
 	int d;
 	int e = 0;
+	
 	while (e < 10)
 	{
 		d = 0;
