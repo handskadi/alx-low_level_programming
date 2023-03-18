@@ -8,17 +8,18 @@ int main(void)
 {
 	int long n = 0;
 	char c = 'a';
+
 	while (n < 10)
 	{
 		putchar(n + '0');
 		n++;
 	}
-	while(c <= 'f')
+	while (c <= 'f')
 	{
 		putchar(c);
 		c++;
 	}
-        putchar('\n');
-
-        return (0);
+	putchar('\n');
+	
+	return (0);
 }
