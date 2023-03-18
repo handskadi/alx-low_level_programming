@@ -11,7 +11,7 @@ int main(void)
 
         while (n < 10)
         {
-		if (n >9)
+		if (n >= 9)
 		{
 			while(c <= 'g')
 			{
