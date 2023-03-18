@@ -16,7 +16,7 @@ int main(void)
 			while(c <= 'g')
 			{
 				putchar(c);
-				c++
+				c++;
 			}
 		} else
 		{
