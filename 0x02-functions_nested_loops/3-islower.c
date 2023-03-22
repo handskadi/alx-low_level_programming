@@ -8,14 +8,9 @@
  */
 int _islower(int c)
 {
-	char al = 'a';
-
-	while (al <= 'z')
-	{
-		if (c == al)
-			return (1);
-		else
-			return (0);
-		al++;
-	}
+	if (c < 61 || c > 122)
+		return (0);
+	else 
+		return (1);
+	
 }
