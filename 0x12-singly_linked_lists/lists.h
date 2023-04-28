@@ -4,12 +4,12 @@
 #include <stddef.h>
 
 /**
- * struct list_s - MK -singly linked list
- * @str: string - (malloc'ed string)
- * @len: length of the string
- * @next: points to the next node
+ * struct list_s - MK - hadi, singly linked list ra2isiya
+ * @str: string of malcom
+ * @len: length dyial string
+ * @next: b7ad next tanppointiw n next node
  *
- * Description: singly linked list node structure
+ * Description: la structure diyal singly linked list
  */
 typedef struct list_s
 {
