@@ -3,25 +3,25 @@
 #include <string.h>
 
 /**
- * add_node - Mk,  adds a new node at the end of a list_t list.
- * @head: double pointer to the list_t list
- * @str: new string to add in the node
- * Return: the address of the new element, or NULL if it fails
+ * add_node - Mk, Hadi ghadi t ajouti lina node l list_t
+ * @head:  pointer doubli l list
+ * @str: hadi hiya string li ghadi t ajouta l node
+ * Return: i returrni lina address diyal liliment wala null ila madaztch
  */
 list_t *add_node(list_t **head, const char *str)
 {
 	list_t *new;
-	unsigned int len = 0;
+	unsigned int MKlen = 0;
 
-	while (str[len])
-		len++;
+	while (str[MKlen])
+		MKlen++;
 
 	new = malloc(sizeof(list_t));
 	if (!new)
 		return (NULL);
 
 	new->str = strdup(str);
-	new->len = len;
+	new->MKlen = MKlen;
 	new->next = (*head);
 	(*head) = new;
 
