@@ -2,8 +2,8 @@
 #include <stdlib.h>
 
 /**
- * free_list - Mk, frees a linked list
- * @head: list_t list to be freed
+ * free_list - Mk hadi tat libiri lina list diyalna
+ * @head: hadi la list li bghina nlibiriw
  */
 void free_list(list_t *head)
 {
