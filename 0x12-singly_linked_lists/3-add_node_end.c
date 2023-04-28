@@ -4,7 +4,7 @@
 
 /**
  * add_node_end - Mk, tzid lina wa7d node flkher diyal list
- * @head: double pointer diyal  had  list > list_t 
+ * @head: double pointer diyal  had  list > list_t
  * @str: hadi hya string li ghadi n ajoutiw l nodes
  * Return: treturni lina address diyal had nodes walla null ila makyn walo
  */
