@@ -2,19 +2,19 @@
 #include <stdio.h>
 
 /**
- * list_len - Mk, returns the number of elements in a linked
+ * list_len - Mk, function li ghadi triturni lina number of element f list
  * list_t list.
- * @h: pointer to the list_t list
- * Return: number of elements in h
+ * @h: hada howa lpointer diyal list
+ * Return: dok leelment li ghadi itreturnaw homa MKn
  */
 size_t list_len(const list_t *h)
 {
-	size_t n = 0;
+	size_t MKn = 0;
 
 	while (h)
 	{
-		n++;
+		MKn++;
 		h = h->next;
 	}
-	return (n);
+	return (MKn);
 }

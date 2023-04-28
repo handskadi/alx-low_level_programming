@@ -4,13 +4,13 @@
 #include "lists.h"
 
 /**
- * print_list - Mk, check the code for Holberton School students.
- * @h: name of the list
- * Return: the number of nodes.
+ * print_list - Mk, code li ghadi ilisti lina les elemts diyal print_list
+ * @h: smiya diyal list
+ * Return: hadi ghadi returni lina, Mkcounts
  */
 size_t print_list(const list_t *h)
 {
-	int count = 0;
+	int MKcounts = 0;
 
 	while (h)
 	{
@@ -22,8 +22,8 @@ size_t print_list(const list_t *h)
 		{
 		printf("[%d] %s\n", h->len, h->str);
 		}
-		count++;
+		MKcounts++;
 		h = h->next;
 	}
-	return (count);
+	return (MKcounts);
 }
