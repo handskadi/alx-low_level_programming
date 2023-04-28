@@ -4,7 +4,7 @@ void first(void) __attribute__ ((constructor));
 
 /**
  * first - Mk, had fucntion tatdisplayi lina wa7d jomla 9bal main
- * 
+ * Fira aydagh n function plz
  */
 void first(void)
 {
