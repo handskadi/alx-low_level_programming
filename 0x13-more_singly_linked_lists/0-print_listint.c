@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * print_listint - hadi ghadi tprinti lina kolchi les lement li kiynin f listint.
+ * print_listint - hadi ghadi tprinti lina kolchi les lement dial listint.
  * @h: hadi tatchir l_isted link men type listlink
  * Return: number of nodes
  */
