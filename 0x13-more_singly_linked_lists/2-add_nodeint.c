@@ -2,7 +2,7 @@
 
 /**
  * add_nodeint - ajouti wa7d node f lbdia diyal la list .
- * @head: tadgh datpointa sar node tamzgarot n list 
+ * @head: tadgh datpointa sar node tamzgarot n list
  * @n: data n nchkcham agnso n node
  * Return: anpointa sar node tojdid nghad Null ig walo
  */
