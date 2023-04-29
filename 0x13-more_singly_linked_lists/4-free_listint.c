@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * free_listint - vider la list 
+ * free_listint - vider la list
  * @head: la list li ghadi tvida
  */
 void free_listint(listint_t *head)
