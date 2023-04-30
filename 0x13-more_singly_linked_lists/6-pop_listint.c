@@ -1,9 +1,9 @@
 #include "lists.h"
 #include "stdlib.h"
 /**
- * pop_listint - sofghd element amzgarou g lalist iga linked 
+ * pop_listint - sofghd element amzgarou g lalist iga linked
  * @head: Pointer sar  la list
- * Return: L9ima diyal 
+ * Return: L9ima diyal
  **/
 
 int pop_listint(listint_t **head)
