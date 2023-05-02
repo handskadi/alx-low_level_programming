@@ -5,7 +5,7 @@ size_t looped_list_len(const listint_t *head);
 size_t print_listint_safe(const listint_t *head);
 
 /**
- * looped_listint_len - n7asbo le nombre diya les node f list
+ * looped_list_len - n7asbo le nombre diya les node f list
  * @head: A pointer l node fiyal list
  * Return: return 0 otherwise the number diyal nodes
  */
