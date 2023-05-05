@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * get_bit - n7slo 3la value diyal bit 
+ * get_bit - n7slo 3la value diyal bit
  * index.
  * @n: unsigned long int input.
  * @index: lindix dyal lbit
