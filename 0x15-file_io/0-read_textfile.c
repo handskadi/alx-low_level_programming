@@ -2,11 +2,10 @@
 #include <stdlib.h>
 
 /**
- * read_textfile - n9raw text file on nktbox ldar x chi7aja file.
+ * read_textfile - n9raw text file on nktbox ldar x chi7aja file
  * @filename: A pointer l nafs fichier.
  * @letters: le mobre diyal les letre li momkin i9rahom lfnctuion
- * Return: 0 	walla NULL ila function fchlat 
- * 		walla O/W bach tbolina 3kla bytes
+ * Return: 0 walla NULL ila function fchlat walla O/W bach tbolina 3kla bytes
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
