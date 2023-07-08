@@ -1,22 +1,23 @@
 #include "hash_tables.h"
-/**
- * hash_table_set - Add or update an elmt in tabl
- * @ht: A ptr to the hash_table.
- * @key: Key to add - No empty str
- * @value: value of key
- * Return: Upon failure = 0 else  1.
- */
 
+/**
+ * hash_table_set - Add or update an elent in a hash tbl
+ * @ht: A ptr to the hash tbl
+ * @key: key to add - cannot be an empty str
+ * @value: value of key.
+ *
+ * Return: Upon failure - 0. Or - 1.
+ */
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
 	hash_node_t *new;
-	char *value_copy;;
+	char *value_copy;
 	unsigned long int index, i;
 
 	if (ht == NULL || key == NULL || *key == '\0' || value == NULL)
 		return (0);
 
-	value_copy = strdup(value)
+	value_copy = strdup(value);
 	if (value_copy == NULL)
 		return (0);
 
@@ -37,17 +38,15 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 		free(value_copy);
 		return (0);
 	}
-
 	new->key = strdup(key);
 	if (new->key == NULL)
 	{
 		free(new);
 		return (0);
 	}
-
 	new->value = value_copy;
 	new->next = ht->array[index];
 	ht->array[index] = new;
-	
+
 	return (1);
 }
