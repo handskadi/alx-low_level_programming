@@ -1,8 +1,8 @@
 #include "hash_tables.h"
 
 /**
- *  * hash_table_delete - rm a hash table.
- *   * @ht: A ptrr to a hash tbl
+ * hash_table_delete - remove a hash tbl.
+ * @ht: ptr to a hash tbl.
  */
 void hash_table_delete(hash_table_t *ht)
 {
