@@ -1,12 +1,19 @@
 CC = gcc
-SRC = main.o main.c
-OBJ = $(SRC:.c)
-NAME = school
-
-$(NAME): $(OBJ)
-	$(CC) -o $(NAME) $(OBJ)
+SRC = main.c school.c
+OBJ = $(SRC:.c=.o)
+	NAME = school
 
 all: $(NAME)
 
-clear:
-	rm -f $(NAME)
+$(NAME): $(OBJ)
+		$(CC) $(OBJ) -o $(NAME)
+
+clean:
+		rm -f $(OBJ)
+
+recompile: $(OBJ)
+
+%.o: %.c
+		$(CC) -c -o $@ $<
+
+.PHONY: all clean recompile
