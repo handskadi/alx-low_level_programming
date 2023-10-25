@@ -1,0 +1,7 @@
+TARGET = school
+SRC =  main.c school.c
+all: $(TARGET)
+gcc -o $(TARGET) -c
+
+clean:
+	rm -f $(TARGET)
